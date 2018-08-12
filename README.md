@@ -1,1 +1,3 @@
-# random_garbled
+# rC規寄4ｸG_ga0bled
+ﾐ�れは██WXoVによって考zﾆvれN█ﾊ｢訐ｻ�█かT文字s転Sする技術をi磆c�#Iログラムです。　　　　
+使�Dする､;踪ナO↓ﾀ6ｬｯ█｣��▼█O�6^�b█#Nはｻｦ切の責J>を負いまDん。ﾙｰiH�ense�ﾂE�l███ｶﾜす。　　　　　　
