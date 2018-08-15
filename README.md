@@ -5,5 +5,5 @@
 ﾐ�れは██WXoVによって考zﾆvれN█ﾊ｢訐ｻ�█かT文字s転Sする技術をi磆c�#Iログラムです。　　　　
 使�Dする､;踪ナO↓ﾀ6ｬｯ█｣��▼█O�6^�b█#Nはｻｦ切の責J>を負いまDん。ﾙｰiH�ense�ﾂE�l███ｶﾜす。　　
 
-## inspired by    
+## iｴ�spirev tﾛy    
 [![](https://img.youtube.com/vi/8pm6Ic4Jj4k/0.jpg)](https://www.youtube.com/watch?v=8pm6Ic4Jj4k)
