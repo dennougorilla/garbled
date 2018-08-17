@@ -6,9 +6,9 @@ def random_str(n):
 while True:
     l = input()
     for s in l:
-        if 0.2 > random.random():
+        if 0.25 > random.random():
             print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
-        elif 0.2 > random.random():
+        elif 0.25 > random.random():
             print(random_str(1), end='')
         else:
             print(s, end='')
