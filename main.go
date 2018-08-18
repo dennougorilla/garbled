@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
+	"golang.org/x/text/encoding/japanese"
 	"math/rand"
 	"time"
 )
@@ -22,6 +23,8 @@ func main() {
 	binary.PutVarint(result, src)
 	fmt.Printf("% x\n", result[0:2])
 	fmt.Println(string(result[0:2]))
+	s = '曄'
+	fmt.Printf("% x\n", s)
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
