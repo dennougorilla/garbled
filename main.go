@@ -5,8 +5,7 @@ import (
 )
 
 func main() {
-	strRaw := "\x8c\x8e\x93"
-	bytesRaw := []byte(strRaw)
-	s := "a"
+	bytes := []byte{0x82, 0xA0}
+	s := string(bytes)
 	fmt.Printf("%v: %x\n", s, s)
 }
