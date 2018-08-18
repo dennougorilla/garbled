@@ -17,7 +17,7 @@ func main() {
 	src := int64(123456789123456789)
 	result := make([]byte, binary.MaxVarintLen64)
 	binary.PutVarint(result, src)
-	fmt.Printf("Bytes: %X", result) // Bytes:
+	fmt.Println(result)
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
