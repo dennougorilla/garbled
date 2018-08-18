@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -14,7 +15,9 @@ func main() {
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
 	bs := make([]byte, 2)
-	binary.LittleEndian.PutUint32(bs, 34)
+	binary.LittleEndian.PutUint32(bs, 1)
+	fmt.Println(bs)
+	bs := []byte(strconv.Itoa(31415926))
 	fmt.Println(bs)
 }
 
