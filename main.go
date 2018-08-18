@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	bytes := []byte{0x82, 0xA0}
+	bytes := []byte{0xbd, 0xb2, 0x3d, 0xbc, 0x20, 0xe2, 0x8c, 0x98}
 	s := string(bytes)
 	fmt.Printf("% x\n", s)
 	fmt.Println(s)
