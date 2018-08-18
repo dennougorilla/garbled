@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/binary"
 	"fmt"
 	"strconv"
 )
@@ -14,7 +13,7 @@ func main() {
 	const sample = "\xbd\xb2\x3d\xbc\x20\xe2\x8c\x98"
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
-	bs := []byte(strconv.Itoa(31415926))
+	bs := []byte(strconv.ParseInt(31415926))
 	fmt.Println(bs)
 }
 
