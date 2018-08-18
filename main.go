@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
+	"math/rand"
 )
 
 func main() {
@@ -14,7 +15,8 @@ func main() {
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
 
-	src := int64(65535)
+	//rand.Seed(time.Now().UnixNano())
+	src := int64(rand.Intn(65535))
 	result := make([]byte, binary.MaxVarintLen64)
 	binary.PutVarint(result, src)
 	fmt.Printf("% x\n", result[0])
