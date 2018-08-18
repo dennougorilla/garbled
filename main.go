@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
-	"golang.org/x/text/encoding/japanese"
 	"math/rand"
 	"time"
 )
@@ -13,7 +12,7 @@ func main() {
 	s := string(bytes)
 	fmt.Printf("% x\n", s)
 	fmt.Println(s)
-	const sample = "\x9e\x40"
+	const sample = "\xe6\x9b\x84"
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
 
@@ -21,10 +20,10 @@ func main() {
 	src := int64(rand.Intn(65535))
 	result := make([]byte, binary.MaxVarintLen64)
 	binary.PutVarint(result, src)
-	fmt.Printf("% x\n", result[0:2])
-	fmt.Println(string(result[0:2]))
-	s = '曄'
-	fmt.Printf("% x\n", s)
+	fmt.Printf("% x\n", result[0:3])
+	fmt.Println(string(result[0:3]))
+	s = "曄"
+	fmt.Printf("%v: % x\n", s, s)
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
