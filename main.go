@@ -1,8 +1,8 @@
 package main
 
 import (
+	"encoding/binary"
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -13,8 +13,11 @@ func main() {
 	const sample = "\xbd\xb2\x3d\xbc\x20\xe2\x8c\x98"
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
-	bs := []byte(strconv.ParseInt(string(31415926), 10, 16))
-	fmt.Println(bs)
+
+	src := int64(123456789123456789)
+	result := make([]byte, binary.MaxVarintLen64)
+	binary.PutVarint(result, src)
+	fmt.Printf("Bytes: %X", result) // Bytes:
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
