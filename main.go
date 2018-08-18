@@ -14,3 +14,5 @@ func main() {
 	fmt.Printf("% x\n", sample)
 
 }
+
+//print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
