@@ -14,9 +14,6 @@ func main() {
 	const sample = "\xbd\xb2\x3d\xbc\x20\xe2\x8c\x98"
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
-	bs := make([]byte, 2)
-	binary.LittleEndian.PutUint32(bs, 1)
-	fmt.Println(bs)
 	bs := []byte(strconv.Itoa(31415926))
 	fmt.Println(bs)
 }
