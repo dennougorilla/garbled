@@ -14,10 +14,10 @@ func main() {
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
 
-	src := int64(123456789123456789)
+	src := int64(65535)
 	result := make([]byte, binary.MaxVarintLen64)
 	binary.PutVarint(result, src)
-	fmt.Println(result)
+	fmt.Printf("% x\n", result)
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
