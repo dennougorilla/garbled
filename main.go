@@ -17,7 +17,7 @@ func main() {
 	fmt.Printf("% x\n", sample)
 
 	rand.Seed(time.Now().UnixNano())
-	src := int64(15113092)
+	src := int64(4345347)
 	result := make([]byte, binary.MaxVarintLen64)
 	binary.PutVarint(result, src)
 	fmt.Printf("% x\n", result[0:3])
