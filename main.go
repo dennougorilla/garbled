@@ -19,11 +19,11 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < 100000000; i++ {
 		src := int64(i)
-		result := make([]byte, binary.MaxVarintLen64)
+		result := make([]byte, 2)
 		binary.PutVarint(result, src)
-		fmt.Printf("% x\n", result[0:3])
-		fmt.Println(string(result[0:3]))
-		if string(result[0:3]) == "" {
+		fmt.Printf("% x\n", result)
+		fmt.Println(string(result))
+		if string(result) == "" {
 			break
 		}
 	}
