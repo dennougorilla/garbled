@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/binary"
 	"fmt"
 )
 
@@ -12,7 +13,9 @@ func main() {
 	const sample = "\xbd\xb2\x3d\xbc\x20\xe2\x8c\x98"
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
-
+	bs := make([]byte, 4)
+	binary.LittleEndian.PutUint32(bs, 31415926)
+	fmt.Println(bs)
 }
 
 //print(int(random.randrange(0,65535)).to_bytes(2,byteorder='little').decode('shift-jis','replace'), end='')
