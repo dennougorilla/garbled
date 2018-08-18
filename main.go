@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(sample)
 	fmt.Printf("% x\n", sample)
 	bs := make([]byte, 2)
-	binary.LittleEndian.PutUint32(bs, 65534)
+	binary.LittleEndian.PutUint32(bs, 34)
 	fmt.Println(bs)
 }
 
