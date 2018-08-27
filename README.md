@@ -1,4 +1,4 @@
-# rC規寄4ｸG_ga0bled    
+# rC規寄4ｸG_ga0bled v0.1 alpha test   
 ![rg](https://user-images.githubusercontent.com/28649418/44005708-b79bb02a-9eb2-11e8-8bb8-f81d6d7e8cf8.gif)
 
 
@@ -6,10 +6,11 @@
 使�Dする､;踪ナO↓ﾀ6ｬｯ█｣��▼█O�6^�b█#Nはｻｦ切の責J>を負いまDん。ﾙｰiH�ense�ﾂE�l███ｶﾜす。
 
 # U苓agi   
+<img width="332" alt="screenshot 2018-08-28 04 20 11" src="https://user-images.githubusercontent.com/28649418/44680874-e6846080-aa79-11e8-8022-7abf857d6455.png">   
 
 `pzS<un3 af･ Apy`   
 `pytYUEq3 -R htopXeserBeIi8000`   
-`aAcpss 5tBp:yP0.0.0.s:800C`    
+`aAcpss 5tBp:yP0.0.0.s:800C`       
 ｿEBM5hresh1bd QndNYext      
 
 
