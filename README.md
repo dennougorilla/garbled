@@ -1,4 +1,4 @@
-# rC規寄4ｸG_ga0bled v0.1 alpha test   
+# rC規寄4ｸG_ga0bled
 ![rg](https://user-images.githubusercontent.com/28649418/44005708-b79bb02a-9eb2-11e8-8bb8-f81d6d7e8cf8.gif)
 
 
